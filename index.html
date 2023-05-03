@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="imges/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Ecommerce Product Page Main</title>
+    <link rel="stylesheet" href="css/homepage.css" />
+  </head>
+  <body>
+    <!-- Start Hedaer -->
+    <div class="header">
+      <div class="menu-background"></div>
+      <div class="container">
+        <div class="navigation">
+          <div class="menu">
+            <img src="imges/icon-menu.svg" alt="" />
+          </div>
+          <div class="logo">
+            <a href="#">
+              <img src="imges/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="links">
+            <ul class="">
+              <li><a href="#">Collections </a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About </a></li>
+              <li><a href="#">Contact </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-profile">
+          <div class="icon">
+            <img src="imges/icon-cart.svg" alt="" />
+          </div>
+               <!-- start box  -->
+               <div class="popoup-box">
+                <p>Cart</p>
+                <div class="popoup-items">
+                  <div class="popoup-items-one">
+                    <img class="popoup-img" src="imges/image-product-1-thumbnail.jpg" alt="" />
+                    <div class="popoup-item-box">
+                      <p>Fall Limited Edition Sneakers</p>
+                      <span class="popoup-price">$125.00</span>
+                      <span class="popoup-x">x</span>
+                      <span class="popoup-chosen-number"></span>
+                      <span class="popoup-full-price"></span>
+                    </div>
+                    <div class="popoup-delete">
+                      <img src="imges/icon-delete.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="popoup-checkout">Checkout</div>
+                <div class="empty-message">Your cart  is empty</div>
+              </div>
+              <!-- End Box -->
+              <!-- Start Notifaction -->
+              <div class="notifaction">
+                <span class="notifaction-counter"></span>
+              </div>
+              <!-- End Notifaction -->
+          <div class="avatar">
+            <img src="imges/image-avatar.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Hedaer -->
+
+    <!-- Start Landing -->
+
+    <div class="landing">
+      <div class="container">
+        <div class="products">
+          <div class="product-box">
+            <div class="previous-next">
+              <span class="previous">
+                <img src="imges/icon-previous.svg" alt="" />
+              </span>
+              <span class="next">
+                <img src="imges/icon-next.svg" alt="" />
+              </span>
+            </div>
+            <img class="product" src="imges/image-product-1.jpg" alt="" />
+          </div>
+          <div class="thumbnail main-one">
+            <div class="thumbnail1 active">
+              <img
+                class="thumbnail-image"
+                data-imagesrc="imges/image-product-1.jpg"
+                src="imges/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+            <div class="thumbnail2">
+              <img
+                class="thumbnail-image"
+                data-imagesrc="imges/image-product-2.jpg"
+                src="imges/image-product-2-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="thumbnail3">
+              <img
+                class="thumbnail-image"
+                data-imagesrc="imges/image-product-3.jpg"
+                src="imges/image-product-3-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="thumbnail4">
+              <img
+                class="thumbnail-image"
+                data-imagesrc="imges/image-product-4.jpg"
+                src="imges/image-product-4-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--Product Popup Start -->
+        <div class="products popup-viwe">
+          <div class="close">
+            <!-- <img src="imges/icon-close.svg" alt=""> -->
+            <i class="fas fa-times close-icon"></i>
+          </div>
+          <div class="product-box">
+            <div class="previous-next">
+              <span class="previous">
+                <!-- <img src="imges/icon-previous.svg" alt="" /> -->
+                <i class="fas fa-chevron-left"></i>
+              </span>
+              <span class="next">
+                <!-- <img src="imges/icon-next.svg" alt="" /> -->
+                <i class="fas fa-chevron-right"></i>
+              </span>
+            </div>
+            <img
+              class="product productpopup-viwe"
+              src="imges/image-product-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="thumbnail thumbnailpopup-viwe">
+            <div class="thumbnail1 active">
+              <img
+                class="active"
+                data-imagesrc="imges/image-product-1.jpg"
+                src="imges/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+            <div class="thumbnail2">
+              <img
+                class=""
+                data-imagesrc="imges/image-product-2.jpg"
+                src="imges/image-product-2-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="thumbnail3">
+              <img
+                class=""
+                data-imagesrc="imges/image-product-3.jpg"
+                src="imges/image-product-3-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="thumbnail4">
+              <img
+                class=""
+                data-imagesrc="imges/image-product-4.jpg"
+                src="imges/image-product-4-thumbnail.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!--Product Popup End -->
+
+        <div class="texts">
+          <p class="name-company">Sneaker Company</p>
+          <h1 class="h1-company">Fall Limited Edition <br> Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="prices">
+            <div class="current-price-and-discount">
+              <span class="current-price"> $125.00</span>
+              <span class="current-discount">50%</span>
+            </div>
+            <span class="full-price">$250.00</span>
+          </div>
+          <div class="buttons">
+            <div class="minus-plus">
+              <div class="icon-minus">
+                <img src="imges/icon-minus.svg" alt="" />
+              </div>
+              <div class="number">0</div>
+              <div class="icon-plus">
+                <img src="imges/icon-plus.svg" alt="" />
+              </div>
+            </div>
+            <div class="add-to">
+              <span class="card">
+                <img src="imges/icon-cart.svg" alt="" />
+              </span>
+              <span> Add to cart </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

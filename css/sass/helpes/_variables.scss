@@ -1,0 +1,43 @@
+// Media
+// Max
+$maxMobile-375: "(max-width:375px)";
+$maxMobile: "(max-width:767px)";
+$maxSmall: "(max-width:991px)";
+// Min
+$minMobile-375: "(min-width:376px)";
+$minSmall: "(min-width:768px)";
+$minMedium: "(min-width:992px)";
+$minLarge: "(min-width:1200px)";
+// 
+//  Colors
+// Primary
+$Orange: hsl(26, 100%, 55%);
+$Pale-orange: hsl(25, 100%, 94%);
+// ### Neutral
+$Very-dark-blue: hsl(220, 13%, 13%);
+$Dark-grayish-blue: hsl(219, 9%, 45%);
+$Grayish-blue: hsl(220, 14%, 75%);
+$Light-grayish-blue: hsl(223, 64%, 98%);
+$White: hsl(0, 0%, 100%);
+$Black:hsl(0, 0%, 0%); /*(with 75% opacity for lightbox background)*/
+
+// ## Typography
+// ### Body Copy
+$Font-size-paragraph: 16px;
+// ### Font
+// - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+// - Weights: 400, 700
+
+// Cursors
+$cursor-pointer: pointer;
+
+// border radius
+$border-radiuds-10: 10px;
+$border-radiuds-50: 50%;
+$border-radiuds-5: 5px;
+
+// shadows
+$shadow-Level-One: 0px 14px 28px 0px rgba(0, 0, 0, 0.25);
+
+// transitions
+$main-trnasition: 0.3s;

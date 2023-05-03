@@ -1,0 +1,42 @@
+@use "../helpes/mixins" as *;
+@use "../helpes/variables" as *;
+
+* {
+  @include prefixer(box-sizing, border-box, ("webkit", "moz", "o", "ms"));
+//   padding: 0;
+//   margin: 0;
+}
+body{
+    font: {
+        family: 'Kumbh Sans', sans-serif;
+    }
+    position: relative;
+@media #{$minSmall} {
+    &.popup{
+        &::before{
+            position: fixed;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: hsla(0, 0%, 0%, 0.53);
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 5;
+            bottom: 0;
+        }
+    }
+}
+  
+    .overlay{
+        position: relative;
+    }
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}

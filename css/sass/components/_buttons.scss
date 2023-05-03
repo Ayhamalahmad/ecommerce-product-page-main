@@ -1,0 +1,10 @@
+@use "../helpes/variables" as *;
+%button{
+    background-color: $Orange;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    &:hover {
+        background-color: #ffac6a;
+      }
+
+}
